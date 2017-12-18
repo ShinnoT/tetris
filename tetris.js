@@ -266,7 +266,7 @@ let playerReset = () => {
   if (collide(arena, player)) {
     //if player hits top
     //remove everything from arena because its game over
-    alert(`You lost! your total score is ${player.score}`);
+    alert(`Game over! your total score is ${player.score}`);
     arena.forEach(row => row.fill(0));
     player.score = 0;
     updateScore();
