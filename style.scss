@@ -1,0 +1,30 @@
+// body {
+//   // text-align: center;
+// }
+// #canvas {
+//   width: 250px;
+//   height: 400px;
+//   // margin: 0 auto;
+//   // background-color: red;
+//   // margin: 0 auto;
+// }
+
+.tetris {
+  display: inline-block;
+}
+
+.score {
+  display: inline-block;
+  width: 400px;
+  // height: 800px;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  background-color: #383562;
+}
+canvas {
+  border: solid 10px white;
+  height: 90vh;
+}
